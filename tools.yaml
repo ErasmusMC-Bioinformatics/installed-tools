@@ -179,3 +179,8 @@ tools:
   - name: vardict_java
     owner: iuc
     tool_panel_section_label: Variation
+
+  - name: rtg_investigator
+    owner: diego
+    tool_panel_section_label: RTG
+    
