@@ -228,6 +228,10 @@ tools:
     owner: iuc
     tool_panel_section_label: Variation
 
+  - name: vcffilter
+    owner: devteam
+    tool_panel_section_label: Variation
+
   - name: gatk4_mutect2
     owner: iuc
     tool_panel_section_label: Variation
