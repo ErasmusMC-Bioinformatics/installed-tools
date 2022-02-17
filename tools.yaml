@@ -235,3 +235,11 @@ tools:
   - name: gatk4_mutect2
     owner: iuc
     tool_panel_section_label: Variation
+
+  - name: fetch_vep_cache_data
+    owner: davidvanzessen
+    tool_panel_section_label: Annotation
+
+  - name: snpeff
+    owner: iuc
+    tool_panel_section_label: Annotation
