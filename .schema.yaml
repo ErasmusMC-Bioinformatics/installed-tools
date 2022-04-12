@@ -38,7 +38,7 @@ mapping:
                         'Test Tools', 'GIS Data Handling', 'Animal Detection on Acoustic Recordings', 'Imaging', 'Virology',
                         'Regional Variation' , 'Genome Diversity' , 'Deprecated', 'Interactive tools', 'Apollo', 'Quality Control',
                         'Multiple Alignments', 'Climate Analysis', 'RNA Analysis', 'Data Managers', 'Extract Features', 'Other Tools',
-                        'Species abundance', 'Variation'
+                        'Species abundance', 'Variation', 'GEMINI', 'BLAST'
                     ]
                 "tool_panel_section_id":
                     type: str
