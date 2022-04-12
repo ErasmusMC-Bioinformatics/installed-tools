@@ -33,7 +33,7 @@ mapping:
                         'Single-cell', 'Get scRNAseq data', 'Seurat', 'SC3', 'Scanpy', 'Monocl3', 'SCMap',
                         'SCCAF', 'Single Cell Utils and Viz', 'Picard', 'deepTools', 'Gemini', 'EMBOSS',
                         'GATK Tools', 'NCBI Blast', 'HiCExplorer', 'RAD-seq', 'GraphClust' , 'MiModD',
-                        'Metagenomic Analysis', 'Qiime' , 'Mothur' , 'DNA Metabarcoding' , 'Proteomics', 'Metabolomics',
+                        'Metagenomic Analysis', 'Qiime' , 'Mothur' , 'MYcrobiota' , 'DNA Metabarcoding' , 'Proteomics', 'Metabolomics',
                         'ChemicalToolBox', 'Statistics', 'Graph/Display Data' , 'Evolution', 'Motif Tools', "Machine Learning",
                         'Test Tools', 'GIS Data Handling', 'Animal Detection on Acoustic Recordings', 'Imaging', 'Virology',
                         'Regional Variation' , 'Genome Diversity' , 'Deprecated', 'Interactive tools', 'Apollo', 'Quality Control',
