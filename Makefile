@@ -6,7 +6,7 @@ CORRECT_YAMLS := $(YAML_FILES:=.fix)
 INSTALL_YAMLS := $(LOCK_FILES:=.install)
 UPDATE_TRUSTED_IUC := $(LOCK_FILES:.lock=.update_trusted_iuc)
 
-GALAXY_SERVER := http://bioinf-galaxy.erasmusmc.nl/
+GALAXY_SERVER := http://bioinf-galactus.erasmusmc.nl/
 
 
 help:
