@@ -13,6 +13,7 @@ tools:
 - name: ega_download_client
   owner: iuc
   revisions:
+  - 1162bfd9f782
   - caf213d51d6c
   tool_panel_section_label: Get Data
 - name: fastqc
@@ -39,6 +40,7 @@ tools:
   owner: iuc
   revisions:
   - 02befcb391f5
+  - 1ee282794de3
   - 654b3a274ed5
   tool_panel_section_label: FASTQ Quality Control
 - name: trim_galore
@@ -61,6 +63,7 @@ tools:
 - name: megahit
   owner: iuc
   revisions:
+  - 14ddfc8ffb93
   - 7518ee87b53d
   - de387b2b2803
   tool_panel_section_label: Assembly
@@ -73,6 +76,7 @@ tools:
   owner: iuc
   revisions:
   - 342a1d1fed7b
+  - 675488238c96
   - 7594365c546b
   - ebb0dcdb621a
   tool_panel_section_label: Assembly
@@ -99,6 +103,7 @@ tools:
 - name: bedtools
   owner: iuc
   revisions:
+  - 07e8b80f278c
   - 0a5c785ac6db
   - 3e38c9b3214f
   - 7ab85ac5f64b
@@ -258,6 +263,7 @@ tools:
   owner: iuc
   revisions:
   - a0c219ecb5e7
+  - ce9396ddcb2b
   tool_panel_section_label: Variation
 - name: star_fusion
   owner: iuc
@@ -282,6 +288,7 @@ tools:
 - name: bcftools_norm
   owner: iuc
   revisions:
+  - 481476814acc
   - 67e2bd1c4579
   tool_panel_section_label: Variation
 - name: picard
@@ -298,4 +305,150 @@ tools:
   owner: iuc
   revisions:
   - 81426b3cf18b
+  - fc47ffec447e
   tool_panel_section_label: Variation
+- name: vcffilter
+  owner: devteam
+  revisions:
+  - fa24bf0598f4
+  tool_panel_section_label: Variation
+- name: gatk4_mutect2
+  owner: iuc
+  revisions:
+  - 53ce8be43212
+  tool_panel_section_label: Variation
+- name: fetch_vep_cache_data
+  owner: davidvanzessen
+  revisions:
+  - de3516853bde
+  tool_panel_section_label: Annotation
+- name: snpeff
+  owner: iuc
+  revisions:
+  - cfcf33df7fc0
+  tool_panel_section_label: Annotation
+- name: data_manager_gemini_database_downloader
+  owner: iuc
+  revisions:
+  - 52b6a4d98009
+  tool_panel_section_label: GEMINI
+- name: gemini_actionable_mutations
+  owner: iuc
+  revisions:
+  - 142d95ab942e
+  tool_panel_section_label: GEMINI
+- name: gemini_amend
+  owner: iuc
+  revisions:
+  - be828b79bd4d
+  tool_panel_section_label: GEMINI
+- name: gemini_annotate
+  owner: iuc
+  revisions:
+  - f2f3bc622a16
+  tool_panel_section_label: GEMINI
+- name: gemini_burden
+  owner: iuc
+  revisions:
+  - df57188562f0
+  tool_panel_section_label: GEMINI
+- name: gemini_comp_hets
+  owner: iuc
+  revisions:
+  - 62647e2637f6
+  tool_panel_section_label: GEMINI
+- name: gemini_db_info
+  owner: iuc
+  revisions:
+  - 7d75673f4d6f
+  tool_panel_section_label: GEMINI
+- name: gemini_de_novo
+  owner: iuc
+  revisions:
+  - 9db3e299b1c8
+  tool_panel_section_label: GEMINI
+- name: gemini_dump
+  owner: iuc
+  revisions:
+  - 96a2d270bf0f
+  tool_panel_section_label: GEMINI
+- name: gemini_fusions
+  owner: iuc
+  revisions:
+  - 8151a5a0e4f6
+  tool_panel_section_label: GEMINI
+- name: gemini_gene_wise
+  owner: iuc
+  revisions:
+  - 452104bdc655
+  tool_panel_section_label: GEMINI
+- name: gemini_inheritance
+  owner: iuc
+  revisions:
+  - 18d13111692b
+  tool_panel_section_label: GEMINI
+- name: gemini_interactions
+  owner: iuc
+  revisions:
+  - 2550239feed5
+  tool_panel_section_label: GEMINI
+- name: gemini_load
+  owner: iuc
+  revisions:
+  - 45296e47d565
+  tool_panel_section_label: GEMINI
+- name: gemini_lof_sieve
+  owner: iuc
+  revisions:
+  - 2969a1f43b7d
+  tool_panel_section_label: GEMINI
+- name: gemini_mendel_errors
+  owner: iuc
+  revisions:
+  - 00c2734b3bea
+  tool_panel_section_label: GEMINI
+- name: gemini_pathways
+  owner: iuc
+  revisions:
+  - 9199331c3421
+  tool_panel_section_label: GEMINI
+- name: gemini_qc
+  owner: iuc
+  revisions:
+  - 86e46972e183
+  tool_panel_section_label: GEMINI
+- name: gemini_query
+  owner: iuc
+  revisions:
+  - da74170c55c7
+  tool_panel_section_label: GEMINI
+- name: gemini_recessive_and_dominant
+  owner: iuc
+  revisions:
+  - 05124dc72dba
+  tool_panel_section_label: GEMINI
+- name: gemini_region
+  owner: iuc
+  revisions:
+  - 601b70d10d92
+  tool_panel_section_label: GEMINI
+- name: gemini_roh
+  owner: iuc
+  revisions:
+  - 345d41f3f574
+  tool_panel_section_label: GEMINI
+- name: gemini_set_somatic
+  owner: iuc
+  revisions:
+  - e4e2128460e3
+  tool_panel_section_label: GEMINI
+- name: gemini_stats
+  owner: iuc
+  revisions:
+  - 5c9efee9cb1e
+  tool_panel_section_label: GEMINI
+- name: gemini_windower
+  owner: iuc
+  revisions:
+  - 0c58ba91d018
+  tool_panel_section_label: GEMINI
