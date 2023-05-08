@@ -343,3 +343,7 @@ tools:
   - name: gemini_windower
     owner: iuc
     tool_panel_section_label: GEMINI
+    
+  - name: abritamr
+    owner: ddollee
+    tool_panel_section_label: Metagenomic Analysis
