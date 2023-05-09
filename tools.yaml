@@ -345,5 +345,5 @@ tools:
     tool_panel_section_label: GEMINI
     
   - name: abritamr
-    owner: ddollee
+    owner: iuc
     tool_panel_section_label: Metagenomic Analysis
